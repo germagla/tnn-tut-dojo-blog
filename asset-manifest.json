@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tnn-tut-dojo-blog/static/css/main.7428b541.chunk.css",
+    "main.js": "/tnn-tut-dojo-blog/static/js/main.4252e254.chunk.js",
+    "main.js.map": "/tnn-tut-dojo-blog/static/js/main.4252e254.chunk.js.map",
+    "runtime-main.js": "/tnn-tut-dojo-blog/static/js/runtime-main.345c7a97.js",
+    "runtime-main.js.map": "/tnn-tut-dojo-blog/static/js/runtime-main.345c7a97.js.map",
+    "static/js/2.a607d347.chunk.js": "/tnn-tut-dojo-blog/static/js/2.a607d347.chunk.js",
+    "static/js/2.a607d347.chunk.js.map": "/tnn-tut-dojo-blog/static/js/2.a607d347.chunk.js.map",
+    "static/js/3.be53ae61.chunk.js": "/tnn-tut-dojo-blog/static/js/3.be53ae61.chunk.js",
+    "static/js/3.be53ae61.chunk.js.map": "/tnn-tut-dojo-blog/static/js/3.be53ae61.chunk.js.map",
+    "index.html": "/tnn-tut-dojo-blog/index.html",
+    "static/css/main.7428b541.chunk.css.map": "/tnn-tut-dojo-blog/static/css/main.7428b541.chunk.css.map",
+    "static/js/2.a607d347.chunk.js.LICENSE.txt": "/tnn-tut-dojo-blog/static/js/2.a607d347.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.345c7a97.js",
+    "static/js/2.a607d347.chunk.js",
+    "static/css/main.7428b541.chunk.css",
+    "static/js/main.4252e254.chunk.js"
+  ]
+}
