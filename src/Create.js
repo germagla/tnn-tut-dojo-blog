@@ -17,7 +17,7 @@ function Create() {
         setTimeout(() => {
             fetch("https://mysterious-eyrie-58576.herokuapp.com/blogs", {
                 method: 'POST',
-                headers: {"Content-Type": "application/json"},
+                headers: {"Content-Type": "application/json", "Request-mode": "no-cors",},
                 body: JSON.stringify(blog),
             }).then(r => {
                 console.log(`new blog added`);

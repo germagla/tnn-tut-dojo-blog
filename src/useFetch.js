@@ -8,7 +8,12 @@ function useFetch(url) {
     useEffect(() => {
         const abortCont = new AbortController();
 
-        setTimeout(() => fetch(url, {signal: abortCont.signal})
+        setTimeout(() => fetch(url, {
+            signal: abortCont.signal,
+            headers: {
+                "Request-mode": "no-cors",
+            }
+        })
             .then(res => {
                 if (!res.ok) throw Error("Problem with the request");
                 return res.json()
