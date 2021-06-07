@@ -10,9 +10,6 @@ function useFetch(url) {
 
         setTimeout(() => fetch(url, {
             signal: abortCont.signal,
-            headers: {
-                //"Request-mode": "no-cors",
-            }
         })
             .then(res => {
                 if (!res.ok) throw Error("Problem with the request");
