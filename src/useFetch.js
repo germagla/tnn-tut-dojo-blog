@@ -11,7 +11,7 @@ function useFetch(url) {
         setTimeout(() => fetch(url, {
             signal: abortCont.signal,
             headers: {
-                "Request-mode": "no-cors",
+                //"Request-mode": "no-cors",
             }
         })
             .then(res => {
