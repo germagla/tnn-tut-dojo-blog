@@ -15,7 +15,7 @@ function Create() {
         const blog = {title, body, author};
         console.log(blog);
         setTimeout(() => {
-            fetch("/blogs", {
+            fetch("/tnn-tut-dojo-blog/blogs", {
                 method: 'POST',
                 headers: {"Content-Type": "application/json",},
                 body: JSON.stringify(blog),
