@@ -15,7 +15,7 @@ function Create() {
         const blog = {title, body, author};
         console.log(blog);
         setTimeout(() => {
-            fetch("https://mysterious-eyrie-58576.herokuapp.com/blogs", {
+            fetch("https://mysterious-eyrie-58576.herokuapp.com/blogs/", {
                 method: 'POST',
                 headers: {"Content-Type": "application/json",},
                 body: JSON.stringify(blog),
