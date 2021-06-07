@@ -27,7 +27,7 @@ function Create() {
             });
         }, 10);
         //history.go(-1);
-        history.push('/');
+        history.push('/tnn-tut-dojo-blog/');
     };
 
     return (
