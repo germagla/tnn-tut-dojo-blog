@@ -6,8 +6,8 @@ function Navbar(props) {
         <nav className="navbar">
             <h1>The Dojo Blog</h1>
             <div className="links">
-                <Link to="/">Home</Link>
-                <Link to="/create">New Post</Link>
+                <Link to="/tnn-tut-dojo-blog/">Home</Link>
+                <Link to="/tnn-tut-dojo-blog/create">New Post</Link>
             </div>
         </nav>
     );
