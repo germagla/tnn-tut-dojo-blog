@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tnn-tut-dojo-blog/static/css/main.21c83626.chunk.css",
-    "main.js": "/tnn-tut-dojo-blog/static/js/main.d568a4b9.chunk.js",
-    "main.js.map": "/tnn-tut-dojo-blog/static/js/main.d568a4b9.chunk.js.map",
+    "main.js": "/tnn-tut-dojo-blog/static/js/main.a01064c0.chunk.js",
+    "main.js.map": "/tnn-tut-dojo-blog/static/js/main.a01064c0.chunk.js.map",
     "runtime-main.js": "/tnn-tut-dojo-blog/static/js/runtime-main.345c7a97.js",
     "runtime-main.js.map": "/tnn-tut-dojo-blog/static/js/runtime-main.345c7a97.js.map",
     "static/js/2.98491e47.chunk.js": "/tnn-tut-dojo-blog/static/js/2.98491e47.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.345c7a97.js",
     "static/js/2.98491e47.chunk.js",
     "static/css/main.21c83626.chunk.css",
-    "static/js/main.d568a4b9.chunk.js"
+    "static/js/main.a01064c0.chunk.js"
   ]
 }
