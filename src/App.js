@@ -3,6 +3,7 @@ import Home from "./Home";
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Create from "./Create";
 import BlogDetails from "./BlogDetails";
+import NotFound from "./NotFound";
 
 function App() {
     return (
@@ -14,11 +15,14 @@ function App() {
                         <Route exact path="/tnn-tut-dojo-blog/">
                             <Home/>
                         </Route>
-                        <Route  path="/tnn-tut-dojo-blog/create">
+                        <Route path="/tnn-tut-dojo-blog/create">
                             <Create/>
                         </Route>
                         <Route path="/tnn-tut-dojo-blog/blogs/:id">
                             <BlogDetails/>
+                        </Route>
+                        <Route path="tnn-tut-dojo-blog/*">
+                            <NotFound/>
                         </Route>
 
                     </Switch>
