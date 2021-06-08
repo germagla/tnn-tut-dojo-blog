@@ -6,7 +6,7 @@ function NotFound() {
         <div className="not-found">
             <h2>Sorry</h2>
             <p>That page could not be found</p>
-            <Link to="/tnn-tut-dojo-blog/"></Link>
+            <Link to="/tnn-tut-dojo-blog/">Here's the way back home</Link>
         </div>
     );
 }
