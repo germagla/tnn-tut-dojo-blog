@@ -21,10 +21,9 @@ function App() {
                         <Route path="/tnn-tut-dojo-blog/blogs/:id">
                             <BlogDetails/>
                         </Route>
-                        <Route path="tnn-tut-dojo-blog/*">
+                        <Route path="/tnn-tut-dojo-blog/*">
                             <NotFound/>
                         </Route>
-
                     </Switch>
                 </div>
             </div>
